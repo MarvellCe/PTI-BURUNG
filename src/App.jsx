@@ -29,7 +29,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/PTI-BURUNG/" element={<Login />} />
-        <Route path="/PTI-BURUNG/" element={<Character />} />
+        <Route path="/PTI-BURUNG/Character" element={<Character />} />
         <Route path="/PTI-BURUNG/" element={<AboutUs />} />
         <Route path="/PTI-BURUNG/" element={<MapAceh />} />
         <Route path="/PTI-BURUNG/" element={<Aceh />} />
