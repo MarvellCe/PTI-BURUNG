@@ -30,7 +30,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Navigate to="/PTI-BURUNG/" />} />
         <Route path="/PTI-BURUNG/" element={<Login />} />
-        <Route path="/PTI-BURUNG/character" element={<Character />} />
+        <Route path="/PTI-BURUNG/Character" element={<Character />} />
         <Route path="/PTI-BURUNG/aboutus" element={<AboutUs />} />
         <Route path="/PTI-BURUNG/mapaceh" element={<MapAceh />} />
         <Route path="/PTI-BURUNG/aceh" element={<Aceh />} />
