@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route , HashRouter  } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login.jsx';
 import Character from './pages/Character.jsx';
-import AboutUs from "./pages/AboutUs.jsx";
+import AboutUs from './pages/AboutUs.jsx';
 import MapAceh from './pages/kota/aceh/mapAceh.jsx';
 import Aceh from './pages/kota/aceh/Aceh.jsx';
 import RestoranAceh from './pages/kota/aceh/restoranAceh.jsx';
@@ -28,8 +28,9 @@ const App = () => {
   return (
     <HashRouter>
       <Routes>
+        <Route path="/" element={<Navigate to="/PTI-BURUNG/" />} />
         <Route path="/PTI-BURUNG/" element={<Login />} />
-        <Route path="/PTI-BURUNG/karakter" element={<Character />} />
+        <Route path="/PTI-BURUNG/character" element={<Character />} />
         <Route path="/PTI-BURUNG/aboutus" element={<AboutUs />} />
         <Route path="/PTI-BURUNG/mapaceh" element={<MapAceh />} />
         <Route path="/PTI-BURUNG/aceh" element={<Aceh />} />
