@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route , HashRouter , Switch } from "react-router-dom";
+import { BrowserRouter, Routes, Route , HashRouter  } from "react-router-dom";
 import Login from './pages/Login.jsx';
 import Character from './pages/Character.jsx';
 import AboutUs from "./pages/AboutUs.jsx";
@@ -27,7 +27,7 @@ import MuseumPalembang from './pages/kota/palembang/museumPalembang.jsx';
 const App = () => {
   return (
     <HashRouter>
-      <Switch>
+      <Routes>
         <Route path="/PTI-BURUNG/" element={<Login />} />
         <Route path="/PTI-BURUNG/karakter" element={<Character />} />
         <Route path="/PTI-BURUNG/aboutus" element={<AboutUs />} />
@@ -51,7 +51,7 @@ const App = () => {
         <Route path="/PTI-BURUNG/palembang" element={<Palembang />} />
         <Route path="/PTI-BURUNG/restoranpalembang" element={<RestoranPalembang />} />
         <Route path="/PTI-BURUNG/museumpalembang" element={<MuseumPalembang />} />
-      </Switch>
+      </Routes>
     </HashRouter>
   );
 };
