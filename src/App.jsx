@@ -40,17 +40,17 @@ const App = () => {
         <Route path="/PTI-BURUNG/" element={<RestoranMedan />} />
         <Route path="/PTI-BURUNG/" element={<MuseumMedan />} />
         <Route path="/PTI-BURUNG/" element={<MapPadang />} />
-        <Route path="/PTI-BURUNG/" element={<Padang />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranPadang />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumPadang />} />
-        <Route path="/PTI-BURUNG/" element={<MapPekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<Pekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranPekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumPekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<MapPalembang />} />
-        <Route path="/PTI-BURUNG/" element={<Palembang />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranPalembang />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumPalembang />} />
+        <Route path="/padang" element={<Padang />} />
+        <Route path="/restoranpadang" element={<RestoranPadang />} />
+        <Route path="/museumpadang" element={<MuseumPadang />} />
+        <Route path="/mappekanbaru" element={<MapPekanbaru />} />
+        <Route path="/pekanbaru" element={<Pekanbaru />} />
+        <Route path="/restoranpekanbaru" element={<RestoranPekanbaru />} />
+        <Route path="/museumpekanbaru" element={<MuseumPekanbaru />} />
+        <Route path="/mappalembang" element={<MapPalembang />} />
+        <Route path="/palembang" element={<Palembang />} />
+        <Route path="/restoranpalembang" element={<RestoranPalembang />} />
+        <Route path="/museumpalembang" element={<MuseumPalembang />} />
       </Routes>
     </BrowserRouter>
   );
