@@ -29,28 +29,28 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/PTI-BURUNG/" element={<Login />} />
-        <Route path="/PTI-BURUNG/Character" element={<Character />} />
-        <Route path="/PTI-BURUNG/" element={<AboutUs />} />
-        <Route path="/PTI-BURUNG/" element={<MapAceh />} />
-        <Route path="/PTI-BURUNG/" element={<Aceh />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranAceh />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumAceh />} />
-        <Route path="/PTI-BURUNG/" element={<MapMedan />} />
-        <Route path="/PTI-BURUNG/" element={<Medan />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranMedan />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumMedan />} />
-        <Route path="/PTI-BURUNG/" element={<MapPadang />} />
-        <Route path="/PTI-BURUNG/" element={<Padang />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranPadang />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumPadang />} />
-        <Route path="/PTI-BURUNG/" element={<MapPekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<Pekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranPekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumPekanbaru />} />
-        <Route path="/PTI-BURUNG/" element={<MapPalembang />} />
-        <Route path="/PTI-BURUNG/" element={<Palembang />} />
-        <Route path="/PTI-BURUNG/" element={<RestoranPalembang />} />
-        <Route path="/PTI-BURUNG/" element={<MuseumPalembang />} />
+        <Route path="/PTI-BURUNG/character" element={<Character />} />
+        <Route path="/PTI-BURUNG/aboutus" element={<AboutUs />} />
+        <Route path="/PTI-BURUNG/mapaceh" element={<MapAceh />} />
+        <Route path="/PTI-BURUNG/aceh" element={<Aceh />} />
+        <Route path="/PTI-BURUNG/restoranaceh" element={<RestoranAceh />} />
+        <Route path="/PTI-BURUNG/museumaceh" element={<MuseumAceh />} />
+        <Route path="/PTI-BURUNG/mapmedan" element={<MapMedan />} />
+        <Route path="/PTI-BURUNG/medan" element={<Medan />} />
+        <Route path="/PTI-BURUNG/restoranmedan" element={<RestoranMedan />} />
+        <Route path="/PTI-BURUNG/museummedan" element={<MuseumMedan />} />
+        <Route path="/PTI-BURUNG/mappadang" element={<MapPadang />} />
+        <Route path="/PTI-BURUNG/padang" element={<Padang />} />
+        <Route path="/PTI-BURUNG/restoranpadang" element={<RestoranPadang />} />
+        <Route path="/PTI-BURUNG/museumpadang" element={<MuseumPadang />} />
+        <Route path="/PTI-BURUNG/mappekanbaru" element={<MapPekanbaru />} />
+        <Route path="/PTI-BURUNG/pekanbaru" element={<Pekanbaru />} />
+        <Route path="/PTI-BURUNG/restoranpekanbaru" element={<RestoranPekanbaru />} />
+        <Route path="/PTI-BURUNG/museumpekanbaru" element={<MuseumPekanbaru />} />
+        <Route path="/PTI-BURUNG/mappalembang" element={<MapPalembang />} />
+        <Route path="/PTI-BURUNG/palembang" element={<Palembang />} />
+        <Route path="/PTI-BURUNG/restoranpalembang" element={<RestoranPalembang />} />
+        <Route path="/PTI-BURUNG/museumpalembang" element={<MuseumPalembang />} />
       </Routes>
     </BrowserRouter>
   );
