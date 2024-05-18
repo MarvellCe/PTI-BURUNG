@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login.jsx';
 import Character from './pages/Character.jsx';
 import AboutUs from './pages/AboutUs.jsx';
@@ -28,7 +28,6 @@ const App = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/PTI-BURUNG/" />} />
         <Route path="/PTI-BURUNG/" element={<Login />} />
         <Route path="/PTI-BURUNG/Character" element={<Character />} />
         <Route path="/PTI-BURUNG/aboutus" element={<AboutUs />} />
