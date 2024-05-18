@@ -1,8 +1,8 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './pages/Login.jsx';
 import Character from './pages/Character.jsx';
-import AboutUs from './pages/AboutUs.jsx';
+import AboutUs from "./pages/AboutUs.jsx";
 import MapAceh from './pages/kota/aceh/mapAceh.jsx';
 import Aceh from './pages/kota/aceh/Aceh.jsx';
 import RestoranAceh from './pages/kota/aceh/restoranAceh.jsx';
@@ -26,33 +26,33 @@ import MuseumPalembang from './pages/kota/palembang/museumPalembang.jsx';
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="/PTI-BURUNG/" element={<Login />} />
-        <Route path="/PTI-BURUNG/Character" element={<Character />} />
-        <Route path="/PTI-BURUNG/aboutus" element={<AboutUs />} />
-        <Route path="/PTI-BURUNG/mapaceh" element={<MapAceh />} />
-        <Route path="/PTI-BURUNG/aceh" element={<Aceh />} />
-        <Route path="/PTI-BURUNG/restoranaceh" element={<RestoranAceh />} />
-        <Route path="/PTI-BURUNG/museumaceh" element={<MuseumAceh />} />
-        <Route path="/PTI-BURUNG/mapmedan" element={<MapMedan />} />
-        <Route path="/PTI-BURUNG/medan" element={<Medan />} />
-        <Route path="/PTI-BURUNG/restoranmedan" element={<RestoranMedan />} />
-        <Route path="/PTI-BURUNG/museummedan" element={<MuseumMedan />} />
-        <Route path="/PTI-BURUNG/mappadang" element={<MapPadang />} />
-        <Route path="/PTI-BURUNG/padang" element={<Padang />} />
-        <Route path="/PTI-BURUNG/restoranpadang" element={<RestoranPadang />} />
-        <Route path="/PTI-BURUNG/museumpadang" element={<MuseumPadang />} />
-        <Route path="/PTI-BURUNG/mappekanbaru" element={<MapPekanbaru />} />
-        <Route path="/PTI-BURUNG/pekanbaru" element={<Pekanbaru />} />
-        <Route path="/PTI-BURUNG/restoranpekanbaru" element={<RestoranPekanbaru />} />
-        <Route path="/PTI-BURUNG/museumpekanbaru" element={<MuseumPekanbaru />} />
-        <Route path="/PTI-BURUNG/mappalembang" element={<MapPalembang />} />
-        <Route path="/PTI-BURUNG/palembang" element={<Palembang />} />
-        <Route path="/PTI-BURUNG/restoranpalembang" element={<RestoranPalembang />} />
-        <Route path="/PTI-BURUNG/museumpalembang" element={<MuseumPalembang />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/character" element={<Character />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/mapaceh" element={<MapAceh />} />
+        <Route path="/aceh" element={<Aceh />} />
+        <Route path="/restoranaceh" element={<RestoranAceh />} />
+        <Route path="/museumaceh" element={<MuseumAceh />} />
+        <Route path="/mapmedan" element={<MapMedan />} />
+        <Route path="/medan" element={<Medan />} />
+        <Route path="/restoranmedan" element={<RestoranMedan />} />
+        <Route path="/museummedan" element={<MuseumMedan />} />
+        <Route path="/mappadang" element={<MapPadang />} />
+        <Route path="/padang" element={<Padang />} />
+        <Route path="/restoranpadang" element={<RestoranPadang />} />
+        <Route path="/museumpadang" element={<MuseumPadang />} />
+        <Route path="/mappekanbaru" element={<MapPekanbaru />} />
+        <Route path="/pekanbaru" element={<Pekanbaru />} />
+        <Route path="/restoranpekanbaru" element={<RestoranPekanbaru />} />
+        <Route path="/museumpekanbaru" element={<MuseumPekanbaru />} />
+        <Route path="/mappalembang" element={<MapPalembang />} />
+        <Route path="/palembang" element={<Palembang />} />
+        <Route path="/restoranpalembang" element={<RestoranPalembang />} />
+        <Route path="/museumpalembang" element={<MuseumPalembang />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
